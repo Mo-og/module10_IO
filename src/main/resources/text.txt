@@ -1,0 +1,27 @@
+what is lorem ipsumlorem ipsum is simply dummy text of the printing and typesetting industry lorem
+ipsum has been the industrys standard dummy text ever since the s when an unknown printer took a
+galley of type and scrambled it to make a type specimen book it has survived not only five centuries
+but also the leap into electronic typesetting remaining essentially unchanged it was popularised in
+the s with the release of letraset sheets containing lorem ipsum passages and more recently with
+desktop publishing software like aldus pagemaker including versions of lorem ipsumwhy do we use
+itit is a long established fact that a reader will be distracted by the readable content of a page
+when looking at its layout the point of using lorem ipsum is that it has a moreorless normal distribution
+of letters as opposed to using content here content here making it look like readable english many desktop
+publishing packages and web page editors now use lorem ipsum as their default model text and a search for
+lorem ipsum will uncover many web sites still in their infancy various versions have evolved over the years
+sometimes by accident sometimes on purpose injected humour and the likewhere does it come fromcontrary to
+popular belief lorem ipsum is not simply random text it has roots in a piece of classical latin literature
+from  bc making it over  years old richard mcclintock a latin professor at hampdensydney college in virginia
+looked up one of the more obscure latin words consectetur from a lorem ipsum passage and going through the
+cites of the word in classical literature discovered the undoubtable source lorem ipsum comes from sections
+and  of de finibus bonorum et malorum the extremes of good and evil by cicero written in  bc this book is
+a treatise on the theory of ethics very popular during the renaissance the first line of lorem ipsum lorem
+ipsum dolor sit amet comes from a line in section the standard chunk of lorem ipsum used since the s is reproduced
+below for those interested sections  and  from de finibus bonorum et malorum by cicero are also reproduced in their
+exact original form accompanied by english versions from the  translation by h rackhamwhere can i get somethere are
+many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected
+humour or randomised words which dont look even slightly believable if you are going to use a passage of lorem ipsum you
+need to be sure there isnt anything embarrassing hidden in the middle of text all the lorem ipsum generators on the internet
+tend to repeat predefined chunks as necessary making this the first true generator on the internet it uses a dictionary of
+over  latin words combined with a handful of model sentence structures to generate lorem ipsum which looks reasonable the
+generated lorem ipsum is therefore always free from repetition injected humour or noncharacteristic words etc
