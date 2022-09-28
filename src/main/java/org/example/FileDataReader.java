@@ -8,32 +8,9 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 public class FileDataReader {
-    private static final String TASK_DIVIDER = "#".repeat(25);
     static final Pattern PHONE_PATTERN = Pattern.compile("((\\(\\d{3}\\) )|(\\d{3}-))(\\d{3}-\\d{4})"); //'(xxx) xxx-xxxx' or 'xxx-xxx-xxxx'
 
-    public static void main(String[] args) {
-        printHeader("Task 1");
-        printValidNumbersFromFile("src/main/resources/phones.txt");
-
-        printHeader("Task 2");
-        printUsersDataAsJson("src/main/resources/users.txt", "src/main/resources/users.json");
-
-        printHeader("Task 2 alt");
-        printFileDataAsJson("src/main/resources/users.txt", "src/main/resources/users1.json");
-        printHeader("Task 2 alt other_file");
-        printFileDataAsJson("src/main/resources/users_extra.txt", "src/main/resources/users_extra.json");
-
-        printHeader("Task 3");
-        printWordsFrequencies("src/main/resources/words.txt");
-        printHeader("Task 3");
-        printWordsFrequencies("src/main/resources/text.txt", 25);
-    }
-
-    private static void printHeader(String header) {
-        System.out.println();
-        System.out.println(TASK_DIVIDER);
-        System.out.printf("# %-21s #%n", header);
-        System.out.println(TASK_DIVIDER);
+    private FileDataReader() {
     }
 
     /////////////////////////
@@ -150,16 +127,21 @@ public class FileDataReader {
 
     static class ObjectJsonPrinter {
         private final String[] headers;
-        private final String DIVIDER = " ";
+        private final String divider; //default is space
 
         public ObjectJsonPrinter(String headersLine) {
+            this(headersLine, " ");
+        }
+
+        public ObjectJsonPrinter(String headersLine, String divider) {
             if (headersLine == null || headersLine.isBlank())
                 throw new IllegalArgumentException("There is no heading line");
             headers = headersLine.split(" ");
+            this.divider = divider;
         }
 
         public String getLineAsJson(String line, int indentSize) {
-            String[] attributes = line.split(DIVIDER);
+            String[] attributes = line.split(divider);
             if (attributes.length != headers.length) throw new IllegalArgumentException();
 
             String indent = "\t".repeat(indentSize);
